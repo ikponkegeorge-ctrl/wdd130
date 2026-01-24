@@ -1,114 +1,68 @@
-:root {
-    --primary-color: #1b4965;
-    --secondary-color: #62b6cb;
-    --accent1-color: #5fa8d3;
-    --accent2-color: #cae9ff;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About White Water Rafting Adventures – mission, history, and purpose">
+    <meta name="author" content="Ikponke George">
+    <title>About Us | White Water Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
 
-    --heading-font: Arial, Helvetica, sans-serif;
-    --body-font: Verdana, Geneva, sans-serif;
-}
+<body>
 
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<header>
+    <img src="images/logo.png" alt="White Water Rafting Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
 
-/* Body */
-body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
-}
+<main>
+    <div class="hero">
+        <img src="images/hero.jpg" alt="Rafting adventure on a wild river">
+        <h1>White Water Rafting Adventures</h1>
 
-/* Layout width */
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
+        <article>
+            <img src="images/happy-client.jpg" alt="Happy rafting client">
+            <p>
+                Our mission is to provide safe, exciting, and unforgettable rafting adventures.
+                We believe in teamwork, respect for nature, and creating lifelong memories.
+            </p>
+        </article>
+    </div>
 
-/* Headings */
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
+    <section>
+        <h2>History</h2>
+        <p>
+            Founded in 2010, White Water Rafting Adventures began with a passion for rivers and adventure.
+            Over the years, we have guided thousands of guests through thrilling rapids and scenic waterways.
+        </p>
+    </section>
 
-/* Spacing */
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
-}
+    <section>
+        <h2>Adventure Awaits You!</h2>
+    </section>
+</main>
 
-/* Header */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+<footer>
+    <p>© 2026 White Water Rafting Adventures | Ikponke George</p>
 
-header img {
-    width: 120px;
-}
+    <nav class="socialmedia">
+        <a href="https://facebook.com">
+            <img src="images/facebook.png" alt="Facebook icon">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/twitter.png" alt="Twitter icon">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagram.png" alt="Instagram icon">
+        </a>
+    </nav>
+</footer>
 
-/* Nav */
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-/* Hero */
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-/* Hero heading overlay */
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    text-align: center;
-    padding: 16px;
-    background-color: var(--accent1-color);
-    opacity: 0.8;
-    color: #ffffff;
-}
-
-/* Article overlay */
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 16px;
-    width: 60%;
-}
-
-/* Article image */
-.hero article img {
-    float: right;
-    width: 125px;
-    margin-left: 12px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-}
-
-/* Social media links */
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia img {
-    width: 32px;
-    margin: 0 5px;
-}
+</body>
+</html>
