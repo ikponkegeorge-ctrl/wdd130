@@ -66,3 +66,14 @@
 
 </body>
 </html>
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero img {
+  width: 100%;
+}
+.socialmedia img {
+  width: 30px;
+  margin: 0 5px;
+}
