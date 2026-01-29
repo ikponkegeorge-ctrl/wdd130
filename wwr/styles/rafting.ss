@@ -1,79 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About White Water Rafting Adventures – mission, history, and purpose">
-    <meta name="author" content="Ikponke George">
-    <title>About Us | White Water Rafting Adventures</title>
-    <link rel="stylesheet" href="styles/rafting.css">
-</head>
-
-<body>
-
-<header>
-    <img src="images/logo.png" alt="White Water Rafting Logo">
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="trips.html">Trips</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
-
-<main>
-    <div class="hero">
-        <img src="images/hero.jpg" alt="Rafting adventure on a wild river">
-        <h1>White Water Rafting Adventures</h1>
-
-        <article>
-            <img src="images/happy-client.jpg" alt="Happy rafting client">
-            <p>
-                Our mission is to provide safe, exciting, and unforgettable rafting adventures.
-                We believe in teamwork, respect for nature, and creating lifelong memories.
-            </p>
-        </article>
-    </div>
-
-    <section>
-        <h2>History</h2>
-        <p>
-            Founded in 2010, White Water Rafting Adventures began with a passion for rivers and adventure.
-            Over the years, we have guided thousands of guests through thrilling rapids and scenic waterways.
-        </p>
-    </section>
-
-    <section>
-        <h2>Adventure Awaits You!</h2>
-    </section>
-</main>
-
-<footer>
-    <p>© 2026 White Water Rafting Adventures | Ikponke George</p>
-
-    <nav class="socialmedia">
-        <a href="https://facebook.com">
-            <img src="images/facebook.png" alt="Facebook icon">
-        </a>
-        <a href="https://twitter.com">
-            <img src="images/twitter.png" alt="Twitter icon">
-        </a>
-        <a href="https://instagram.com">
-            <img src="images/instagram.png" alt="Instagram icon">
-        </a>
-    </nav>
-</footer>
-
-</body>
-</html>
-.hero {
-  position: relative;
-  text-align: center;
+header {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  background-color: #2b4f60;
+  padding: 1rem;
 }
+
+header img {
+  width: 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}.hero {
+  position: relative;
+}
+
 .hero img {
   width: 100%;
 }
-.socialmedia img {
-  width: 30px;
-  margin: 0 5px;
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
 }
+.adventures {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.adventures figure {
+  width: 100%;
+}
+
+.adventures img {
+  width: 100%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b4f60;
+  color: white;
+  padding: 1rem;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social img {
+  width: 30px;
+}
+

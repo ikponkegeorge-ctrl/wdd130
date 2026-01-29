@@ -4,74 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-      content="About White Water Rafting Adventures – mission, history, and purpose">
-    <meta name="author" content="Ikponke George">
-    <title>About Us | White Water Rafting Adventures</title>
-    <link rel="stylesheet" href="wwr/styles/rafting.css">
-
+    <title>About Us | White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
-<body>
+<header>
+    <img src="images/logo.png" alt="White Water Rafting Logo">
 
-    <header>
-        <img src="images/logo.png" alt="White Water Rafting Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+class="hero">
+<img src="images/hero.jpg" alt="Rafting Adventure">
+<h1>White Water Rafting</h1>
+<section class="history">
+    <h2>History</h2>
 
-    <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Rafting adventure on a wild river">
-            <h1>White Water Rafting Adventures</h1>
+    <p>
+        Our rafting company was founded to bring adventure and safety together.
+    </p>
 
-            <article>
-                <img src="images/happy-client.jpg" alt="Happy rafting client">
-                <p>
-                    Our mission is to provide safe, exciting, and unforgettable rafting adventures.
-                    We believe in teamwork, respect for nature, and creating lifelong memories.
-                </p>
-            </article>
-        </div>
+    <img src="images/history.jpg" alt="Rafting history">
 
-        <section>
-            <h2>History</h2>
-            <p>
-                Founded in 2010, White Water Rafting Adventures began with a passion for rivers and
-                adventure.
-                Over the years, we have guided thousands of guests through thrilling rapids and
-                scenic waterways.
-            </p>
-        </section>
+    <p>
+        Over the years, we have guided thousands through unforgettable rivers.
+    </p>
+</section>
+.history {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1rem;
+padding: 2rem;
+align-items: center;
+}
 
-        <section>
-            <h2>Adventure Awaits You!</h2>
-        </section><img src="images/rafting1.jpg" alt="Rafting adventure">
-        <img src="images/rafting2.jpg" alt="River rafting">
-        <img src="images/rafting3.jpg" alt="Team rafting">
+.history h2 {
+grid-column: 1 / 4;
+text-align: center;
+}
 
-    </main>
+<section class="adventures">
+    <h2>Adventure Awaits You!</h2>
 
-    <footer>
-        <p>© 2026 White Water Rafting Adventures | Ikponke George</p>
+    <figure>
+        <img src="images/rafting1.jpg" alt="Los Dientes del Diablo">
+        <figcaption>Los Dientes del Diablo</figcaption>
+    </figure>
 
-        <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook icon">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="Twitter icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram icon">
-            </a>
-        </nav>
-    </footer>
+    <figure>
+        <img src="images/rafting2.jpg" alt="Big Mallard">
+        <figcaption>Big Mallard</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/rafting3.jpg" alt="Half Day Adventure">
+        <figcaption>Half Day Adventure</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/rafting4.jpg" alt="Thunder Run">
+        <figcaption>Thunder Run</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/rafting5.jpg" alt="Rapid X">
+        <figcaption>Rapid X</figcaption>
+    </figure>
+</section>
 
 </body>
 
 </html>
+<footer>
+    <p>© 2026 White Water Rafting | Ikponke George</p>
+
+    <div class="social">
+        <img src="images/facebook.png" alt="Facebook">
+        <img src="images/twitter.png" alt="Twitter">
+        <img src="images/instagram.png" alt="Instagram">
+    </div>
+</footer>
