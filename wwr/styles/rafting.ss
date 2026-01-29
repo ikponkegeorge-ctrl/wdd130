@@ -1,4 +1,4 @@
-/* Header */
+/* HEADER */
 header {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -22,13 +22,18 @@ nav a {
   padding: 0.5rem;
 }
 
-/* Hero */
+nav a:hover {
+  background-color: #1e3a47;
+}
+
+/* HERO */
 .hero {
   position: relative;
 }
 
 .hero img {
   width: 100%;
+  display: block;
 }
 
 .hero h1 {
@@ -38,7 +43,7 @@ nav a {
   color: white;
 }
 
-/* History */
+/* HISTORY */
 .history {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -52,7 +57,7 @@ nav a {
   text-align: center;
 }
 
-/* Adventures */
+/* ADVENTURES */
 .adventures {
   display: flex;
   gap: 1rem;
@@ -67,7 +72,7 @@ nav a {
   width: 100%;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   display: flex;
   justify-content: space-between;
