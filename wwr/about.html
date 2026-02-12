@@ -1,93 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<main>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | White Water Rafting</title>
-    <link rel="stylesheet" href="styles/rafting.css">
-</head>
+    <h1>Contact Us</h1>
 
-<body>
+    <!-- Company Information -->
+    <section class="company-info">
+        <h2>Our Office</h2>
+        <p><strong>Address:</strong> 123 River Lane, Idaho, USA</p>
+        <p><strong>Phone:</strong> +1 208-555-1234</p>
+        <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+    </section>
 
-    <!-- HEADER -->
-    <header>
-        <img src="images/logo.png" alt="White Water Rafting Logo">
+    <!-- Google Map -->
+    <section class="map">
+        <h2>Find Us</h2>
+        <iframe src="https://www.google.com/maps?q=Idaho&output=embed" width="100%" height="300"
+          loading="lazy">
+        </iframe>
+    </section>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <!-- Employee Profiles -->
+    <section class="employees">
+        <h2>Meet Our Team</h2>
+        <figure>
+            <img src="images/employee1.jpg" alt="John - River Guide">
+            <figcaption>John Doe - Senior River Guide</figcaption>
+        </figure>
 
-    <main>
+        <figure>
+            <img src="images/employee2.jpg" alt="Sarah - Manager">
+            <figcaption>Sarah Smith - Operations Manager</figcaption>
+        </figure>
 
-        <!-- HERO -->
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Rafting Adventure">
-            <h1>White Water Rafting</h1>
-        </div>
+        <figure>
+            <img src="images/employee3.jpg" alt="Mike - Instructor">
+            <figcaption>Mike Brown - Safety Instructor</figcaption>
+        </figure>
+    </section>
 
-        <!-- HISTORY -->
-        <section class="history">
-            <h2>History</h2>
+    <!-- Contact Form -->
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
 
-            <p>
-                Our rafting company was founded to bring adventure and safety together.
-            </p>
+        <form action="#" method="post">
 
-            <img src="images/history.jpg" alt="Rafting history">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
 
-            <p>
-                Over the years, we have guided thousands through unforgettable rivers.
-            </p>
-        </section>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
 
-        <!-- ADVENTURES -->
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
+            <p>Purpose of Message:</p>
+            <label><input type="radio" name="purpose" value="general" required> General
+                Inquiry</label>
+            <label><input type="radio" name="purpose" value="reservation"> Reservation
+                Question</label>
+            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
 
-            <figure>
-                <img src="images/rafting1.jpg" alt="Los Dientes del Diablo">
-                <figcaption>Los Dientes del Diablo</figcaption>
-            </figure>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
-            <figure>
-                <img src="images/rafting2.jpg" alt="Big Mallard">
-                <figcaption>Big Mallard</figcaption>
-            </figure>
+            <label>
+                <input type="checkbox" name="subscribe">
+                Please subscribe me to the monthly newsletter
+            </label>
 
-            <figure>
-                <img src="images/rafting3.jpg" alt="Half Day Adventure">
-                <figcaption>Half Day Adventure</figcaption>
-            </figure>
+            <button type="submit">Send Message</button>
 
-            <figure>
-                <img src="images/rafting4.jpg" alt="Thunder Run">
-                <figcaption>Thunder Run</figcaption>
-            </figure>
+        </form>
+    </section>
 
-            <figure>
-                <img src="images/rafting5.jpg" alt="Rapid X">
-                <figcaption>Rapid X</figcaption>
-            </figure>
-        </section>
-
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 White Water Rafting | Ikponke George</p>
-
-        <div class="social">
-            <img src="images/facebook.png" alt="Facebook">
-            <img src="images/twitter.png" alt="Twitter">
-            <img src="images/instagram.png" alt="Instagram">
-        </div>
-    </footer>
-
-</body>
-
-</html>
+</main>

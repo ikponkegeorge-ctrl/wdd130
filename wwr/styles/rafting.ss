@@ -89,4 +89,37 @@ footer {
 
 .social img {
   width: 30px;
+}.company-info, .map, .employees, .contact-form {
+  margin: 2rem 0;
 }
+
+.employees {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.employees figure {
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.contact-form button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
+
